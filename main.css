@@ -17,7 +17,8 @@ body {
   height: auto;
 
   margin: 0;
-  padding: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 
   background-color: #ea5169;
 }
@@ -32,4 +33,21 @@ body {
 
   grid-template: 325px / repeat(3, 325px);
   grid-gap: 7%;
+}
+
+.footer {
+  width:100%;
+  height: auto;
+
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  position: relative;
+
+  bottom: 0px;
+  left: 0px;
+
+  background-color: #ea5169;
+
+  text-align: center;
 }
