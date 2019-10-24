@@ -11,3 +11,25 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.page-header {
+  width: 100%;
+  height: auto;
+
+  margin: 0;
+  padding: 2%;
+
+  background-color: #ea5169;
+}
+
+.grid-container {
+  width: fit-content;
+  height: fit-content;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template: 325px / repeat(3, 325px);
+  grid-gap: 7%;
+}
