@@ -19,7 +19,7 @@ body {
   width: 100%;
   height: auto;
 
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 500;
   text-align: center;
 
@@ -33,13 +33,17 @@ body {
 }
 
 .jumbo-img {
-  height: 650px;
+  height: 100%;
   width: 100%;
 
   margin-top:0%;
   margin-bottom: 0%;
 
-  background-image: url("https://images.squarespace-cdn.com/content/v1/59233e7cd482e9f6510089e1/1500748166876-UELBT7PFX24WTOZSZ35D/ke17ZwdGBToddI8pDm48kFyD7pzB8zoMIVY5aiUuFlp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jG2lbcDYBOeMi4OFSYem8DMb5PTLoEDdB05UqhYu-xbnSznFxIRsaAU-3g5IaylIg/Farmstead+Catering+--+Echo+Farm+and+the+beautiful+red+barn");
+  position: fixed;
+  top: 0px;
+  z-index: -1;
+
+  background-image: url("https://hdwallsource.com/img/2014/2/free-farm-wallpaper-16680-17219-hd-wallpapers.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,16 +55,35 @@ body {
 
   position: absolute;
 
+  z-index: 0;
+
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.jumbo-header {
+  color: rgba(238, 238, 238, 0.9);
+
+  font-size: 7em;
+  font-family: fantasy;
+
+  position: absolute;
+
+  bottom: 50px;
+  right: 50px;
 }
 
 .main-container {
   background-color: whitesmoke;
 
-  width: 80%;
-  height: auto;
+  width: 100%;
+  height: 100%;
 
   margin: 0 auto;
+
+  padding-bottom: 3%;
+  padding-top: 3%;
+
+  margin-top: 43%;
 }
 
 .grid-container {
@@ -80,10 +103,10 @@ body {
 
 .section {
   height: auto;
-  width: auto;
+  width: 80%;
 
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
 
   position: relative;
 }
@@ -129,11 +152,6 @@ body {
 
   padding-top: 1%;
   padding-bottom: 1%;
-
-  position: relative;
-
-  bottom: 0px;
-  left: 0px;
 
   background-color: #ea5169;
 
