@@ -69,12 +69,12 @@ body {
 
   margin: 0 auto;
 
-  margin-top: 7%;
-  margin-bottom: 7%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 
   display: grid;
 
-  grid-template: 300px / repeat(3, 300px);
+  grid-template: 325px / repeat(3, 325px);
   grid-gap: 7%;
 }
 
@@ -89,25 +89,20 @@ body {
 }
 
 .section-heading {
-  width: fit-content;
-  height: auto;
-
   padding: 1% 0%;
   margin: 5% 0%;
-
-  border-bottom: 3px solid #ea5169;
 
   font-size: 2.5em;
 }
 
 .section-body {
-  width: 90%;
   height: auto;
+  width: auto;
 
   font-size: 1.25em;
 
   padding:0;
-  margin:0 auto;
+  margin:0;
 }
 
 .watermelon-list {
